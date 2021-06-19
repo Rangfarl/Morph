@@ -1,0 +1,9 @@
+AIO Fisher
+
+Setup: Tag fishing spot
+       Place bait and rod in top 2 slots
+       F1 start Script
+       Enter number of inv to complete
+	   
+Color: NPC tag 0x00FFFF
+       INV tag 0xFF00FF
