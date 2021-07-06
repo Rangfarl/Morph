@@ -17,7 +17,7 @@ SetWorkingDir %A_ScriptDir%
 
 SwitchTab(tab){
 	if(tab < 1 || tab > 15){
-		return 0
+		return 0 ;todo add error log message.
 	}else{
 		if(tab <= 7){
 			x := 540+((tab - 1) * 33)
