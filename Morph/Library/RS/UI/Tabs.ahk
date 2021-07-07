@@ -46,67 +46,56 @@ Checktab(){
 			}else{
 				if(nx <= 559 || >= 524){
 					currenttab := 8
-					return currenttab
 				}else if(nx <= 590 || >= 560){
 					currenttab := 9
-					return currenttab
 				
 				}else if(nx <= 621 || >= 591){
 					currenttab := 10
-					return currenttab
 				
 				}else if(nx <= 652 || >= 622){
 					currenttab := 11
-					return currenttab
 				
 				}else if(nx <= 683 || >= 653){
 					currenttab := 12
-					return currenttab
 				
 				}else if(nx <= 733 || >= 684){
 					currenttab := 13
-					return currenttab
 				
 				}else if(nx <= 768 || >= 734){
 					currenttab := 14
-					return currenttab
 				
 				}else{
 					;add error log here
 				}
+				Return currenttab
 			}
+			
 			
 	}else{
 			If(nx <= 559 || >= 524){
 				currenttab := 1
-				return currenttab
 			}else if(nx <= 590 || >= 560){
 				currenttab := 2
-				return currenttab
 			
 			}else if(nx <= 621 || >= 591){
 				currenttab := 3
-				return currenttab
 			
 			}else if(nx <= 652 || >= 622){
 				currenttab := 4
-				return currenttab
 			
 			}else if(nx <= 683 || >= 653){
 				currenttab := 5
-				return currenttab
 			
 			}else if(nx <= 733 || >= 684){
 				currenttab := 6
-				return currenttab
 			
 			}else if(nx <= 768 || >= 734){
 				currenttab := 7
-				return currenttab
 			
 			}else{
 				;todo add error log.
 			}
+			Return currenttab
 	}
 }
 
